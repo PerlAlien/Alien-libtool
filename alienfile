@@ -3,6 +3,8 @@ use alienfile;
 probe sub { 'share' };
 
 share {
+  requires 'Alien::MSYS' => '0.08' if $^O eq 'MSWin32';
+
   plugin Download => (
     url => 'ftp://ftp.gnu.org/gnu/libtool',
     filter => qr/^libtool-.*\.tar\.gz$/,
