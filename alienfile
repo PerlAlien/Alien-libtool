@@ -4,6 +4,7 @@ probe sub { 'share' };
 
 share {
   requires 'Alien::MSYS' => '0.08' if $^O eq 'MSWin32';
+  requires 'Alien::m4' => '0.11';
 
   plugin Download => (
     url => 'ftp://ftp.gnu.org/gnu/libtool',
