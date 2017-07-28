@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.05      2017-07-28 10:16:40 -0400
   - Fixed hiccup where Alien:::MSYS was added as a
     test prereq on non-Windows platforms
 
