@@ -2,6 +2,8 @@ use Test2::V0;
 use Test::Alien;
 use Alien::libtool;
 use Env qw( @PATH );
+use File::chdir;
+use File::Temp qw( tempdir );
 
 alien_ok 'Alien::libtool';
 
@@ -20,5 +22,15 @@ if($^O eq 'MSWin32')
 run_ok($wrapper->($_, '--version'))
   ->success
   ->note for qw( libtool libtoolize );
+
+subtest 'test running out of blib' => sub {
+
+  local $CWD = tempdir( CLEANUP => 1);
+  
+  run_ok($wrapper->('libtoolize', '--copy'))
+    ->success
+    ->note;
+
+};
 
 done_testing;
