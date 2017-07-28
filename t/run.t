@@ -9,7 +9,8 @@ my @cmd = ('libtool', '--version');
 
 if($^O eq 'MSWin32')
 {
-  require Alien::MSYS;
+  skip_all 'test requires Alien::MSYS on Windows'
+    unless eval q{ require Alien::MSYS; 1 };
   push @PATH, Alien::MSYS::msys_path();
   @cmd = ('sh', -c => 'libtool --version');
 }
