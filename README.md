@@ -9,7 +9,7 @@ In your script or module:
     use Alien::libtool;
     use Env qw( @PATH );
     
-    unshift @ENV, Alien::libtool->bin_dir;
+    unshift @PATH, Alien::libtool->bin_dir;
 
 # DESCRIPTION
 
