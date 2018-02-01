@@ -70,7 +70,7 @@ share {
   }
 
   plugin Download => (
-    url => 'ftp://ftp.gnu.org/gnu/libtool',
+    url => 'http://ftp.gnu.org/gnu/libtool',
     filter => qr/^libtool-.*\.tar\.gz$/,
     version => qr/([0-9\.]+)/,
   );
