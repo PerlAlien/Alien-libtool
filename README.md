@@ -32,6 +32,8 @@ Contributors:
 
 Zaki Mughal (zmughal, sivoais)
 
+Chase Whitener (genio, CAPOEIRAB)
+
 # COPYRIGHT AND LICENSE
 
 This software is copyright (c) 2017 by Graham Ollis.
