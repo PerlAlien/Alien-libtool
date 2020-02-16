@@ -6,16 +6,18 @@ Build or find libtool
 
 In your script or module:
 
-    use Alien::libtool;
-    use Env qw( @PATH );
-    
-    unshift @PATH, Alien::libtool->bin_dir;
+```perl
+use Alien::libtool;
+use Env qw( @PATH );
+
+unshift @PATH, Alien::libtool->bin_dir;
+```
 
 # DESCRIPTION
 
-This distribution provides libtool so that it can be used by other 
-Perl distributions that are on CPAN.  It does this by first trying to 
-detect an existing install of libtool on your system.  If found it 
+This distribution provides libtool so that it can be used by other
+Perl distributions that are on CPAN.  It does this by first trying to
+detect an existing install of libtool on your system.  If found it
 will use that.  If it cannot be found, the source code will be downloaded
 from the internet and it will be installed in a private share location
 for the use of other modules.
