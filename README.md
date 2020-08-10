@@ -1,4 +1,4 @@
-# Alien::libtool [![Build Status](https://secure.travis-ci.org/Perl5-Alien/Alien-libtool.png)](http://travis-ci.org/Perl5-Alien/Alien-libtool) ![macos](https://github.com/Perl5-Alien/Alien-libtool/workflows/macos/badge.svg) ![windows](https://github.com/Perl5-Alien/Alien-libtool/workflows/windows/badge.svg)
+# Alien::libtool [![Build Status](https://travis-ci.org/PerlAlien/Alien-libtool.svg)](http://travis-ci.org/PerlAlien/Alien-libtool) ![macos](https://github.com/PerlAlien/Alien-libtool/workflows/macos/badge.svg) ![windows](https://github.com/PerlAlien/Alien-libtool/workflows/windows/badge.svg)
 
 Build or find libtool
 
