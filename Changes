@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Add helpers (gh#10)
 
 0.14      2020-02-15 19:15:16 -0700
   - Use https instead of http

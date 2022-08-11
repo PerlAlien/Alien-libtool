@@ -26,6 +26,14 @@ for the use of other modules.
 
 [Alien](https://metacpan.org/pod/Alien), [Alien::Base](https://metacpan.org/pod/Alien::Base), [Alien::Build::Manual::AlienUser](https://metacpan.org/pod/Alien::Build::Manual::AlienUser)
 
+# HELPERS
+
+This [Alien](https://metacpan.org/pod/Alien) provides the following helpers which will execute the corresponding command.  You want
+to use the helpers because they will use the correct incantation on Windows.
+
+- libtool
+- libtoolize
+
 # AUTHOR
 
 Author: Graham Ollis <plicease@cpan.org>
@@ -38,7 +46,7 @@ Chase Whitener (genio, CAPOEIRAB)
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2017 by Graham Ollis.
+This software is copyright (c) 2017-2022 by Graham Ollis.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
